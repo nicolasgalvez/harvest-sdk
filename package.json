@@ -41,11 +41,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nicolasgalvez/harvest-sdk.git"
+    "url": "git+https://github.com/procyon-creative/harvest-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/nicolasgalvez/harvest-sdk/issues"
+    "url": "https://github.com/procyon-creative/harvest-sdk/issues"
   },
-  "homepage": "https://github.com/nicolasgalvez/harvest-sdk#readme",
+  "homepage": "https://github.com/procyon-creative/harvest-sdk#readme",
   "license": "MIT"
 }
