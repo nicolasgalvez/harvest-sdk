@@ -1,0 +1,11 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": ["src/index.ts"],
+  "projectDocuments": ["guides/*.md"],
+  "plugin": ["typedoc-plugin-markdown"],
+  "out": "docs",
+  "readme": "none",
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "excludeInternal": true
+}

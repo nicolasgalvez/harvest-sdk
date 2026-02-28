@@ -1,0 +1,28 @@
+import { BaseResource } from "./base.js";
+
+export interface Company {
+  base_uri: string;
+  full_domain: string;
+  name: string;
+  is_active: boolean;
+  week_start_day: string;
+  wants_timestamp_timers: boolean;
+  time_format: string;
+  date_format: string;
+  plan_type: string;
+  clock: string;
+  decimal_symbol: string;
+  thousands_separator: string;
+  color_scheme: string;
+  weekly_capacity: number;
+  expense_feature: boolean;
+  invoice_feature: boolean;
+  estimate_feature: boolean;
+  approval_feature: boolean;
+}
+
+export class CompanyResource extends BaseResource {
+  async get(): Promise<Company> {
+    return this.client.get<Company>("/company");
+  }
+}
